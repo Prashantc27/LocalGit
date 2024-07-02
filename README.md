@@ -106,3 +106,9 @@ This project implements an version control file system, similar to Git. It inclu
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'targetFileId=1' \
 --data-urlencode 'sourceFileId=2'
+
+- **Merge**:
+- curl --location 'http://localhost:8080/files/merge' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'targetFileId=1' \
+--data-urlencode 'sourceFileId=2'
