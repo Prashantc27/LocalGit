@@ -9,13 +9,12 @@ This project implements an version control file system, similar to Git. It inclu
 - **Conflict Resolution**: Detect and resolve conflicts in file versions.
 - **Merge Operations**: Merge content from different files into a single file.
 
-## Technology Stack
-
-- **Spring Boot**: Backend framework for building the application.
-- **JPA/Hibernate**: ORM for database interactions.
-- **H2 Database**: In-memory database for development and testing.
-- **Lombok**: Simplifies Java code with annotations.
-- **Spring Data JPA**: Simplifies data access layers.
+## Technologies Used
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Lombok
+- diffutils
 
 ## Getting Started
 
@@ -43,6 +42,12 @@ This project implements an version control file system, similar to Git. It inclu
     ```
 
 4. The application will be available at `http://localhost:8080`.
+
+5. Access the H2 Console
+- http://localhost:8080/h2-console
+- JDBC URL: jdbc:h2:mem:testdb
+- Username: root
+- Password: 123
 
 ### API Endpoints
 
